@@ -1,0 +1,42 @@
+#Task 1: Buggy Code
+
+attendees = int(input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+
+print(venue)
+
+#Task 2: Venue Selection
+attendees = int(input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+
+print(f"venue: {venue}")
+
+if attendees >= 100:
+    print("Tip: You should rent an audio system too")
+elif 30 < attendees <= 99:
+    print("Tip: Rent a projector as well")
+else:
+    print("No additional equipment needed")
+
+
+#Task 3: Catering Choices
+
+attendees = int(input("Enter number of attendees: "))
+venue = "large hall" if attendees > 100 else "conference room"
+
+print(f"venue: {venue}")
+
+if attendees >= 100:
+    print("Tip: You should rent an audio system too")
+elif 30 < attendees <= 99:
+    print("Tip: Rent a projector as well")
+else:
+    print("No additional equipment needed")
+
+vegetarian = input("Do you want vegetarian food? (yes/no): ")
+
+if vegetarian == "yes":
+    print("Hire: Veggie Delight Caterers")
+else:
+    print("Hire: Gourmet Meals Caterers")
+
